@@ -1,10 +1,22 @@
-.section {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center;
+}
+
+section {
+  color: yellow;
   height: 100vh;
 }
 
-
 #section-1 {
   background-color: red;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
 #section-2 {
@@ -13,4 +25,5 @@
 
 #section-3 {
   background-color: yellow;
+  color: green;
 }
