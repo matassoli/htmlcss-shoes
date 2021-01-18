@@ -16,7 +16,7 @@ nav {
 
 section {
   color: yellow;
-  font-size: 30px;
+  font-size: 40px;
   height: 100vh;
   position: relative;
 }
@@ -43,24 +43,25 @@ section {
 }
 
 nav {
-  position: fixed;
-  z-index: 5;
-  right: 0;
   margin: 10px;
+  position: fixed;
+  right: 0;
+  z-index: 5;
 }
 
 a {
-  text-decoration: none;
   color: black;
   font-size: 20px;
+  text-decoration: none;
+  vertical-align: middle;
 }
 
 li {
-  list-style: none;
-  display: inline-block;
   background-color: white;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  display: inline-block;
+  height: 50px;
+  list-style: none;
   margin: 20px;
+  width: 50px;
 }
