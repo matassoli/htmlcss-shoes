@@ -9,9 +9,16 @@ body {
   text-align: center;
 }
 
+nav {
+  position: static;
+  z-index: 10;
+}
+
 section {
   color: yellow;
+  font-size: 30px;
   height: 100vh;
+  position: relative;
 }
 
 #section-1 {
@@ -26,4 +33,34 @@ section {
 #section-3 {
   background-color: yellow;
   color: green;
+}
+
+.center {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav {
+  position: fixed;
+  z-index: 5;
+  right: 0;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 20px;
 }
