@@ -1,0 +1,16 @@
+.section {
+  height: 100vh;
+}
+
+
+#section-1 {
+  background-color: red;
+}
+
+#section-2 {
+  background-color: green;
+}
+
+#section-3 {
+  background-color: yellow;
+}
